@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-responsive-screen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This dependency is used to make responsive appearance in accordance with the dimensions of the design",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "Pratama Setya Aji",
   "license": "ISC",
+  "homepage": "https://github.com/UADACID/react-native-auto-responsive-screen/blob/master/README.md",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.59.0"
   }
