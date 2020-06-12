@@ -18,6 +18,15 @@ class ResponsiveScreen {
             return Math.round(PixelRatio.roundToNearestPixel(newSize)) - 2;
         }
     }
+
+    static fontSize = (size, based) => {
+        const newSize = based === 'height' ? size * this.hscale : size * this.wscale;
+        if (Platform.OS === 'ios') {
+            return Math.round(PixelRatio.roundToNearestPixel(newSize));
+        } else {
+            return Math.round(PixelRatio.roundToNearestPixel(newSize));
+        }
+    }
 }
 
 export default ResponsiveScreen
