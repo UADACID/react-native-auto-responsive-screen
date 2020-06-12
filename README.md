@@ -45,7 +45,7 @@ import ResponsiveScreen from 'react-native-auto-responsive-screen'
 
 <Text style={{
     color: '#FFFFFF',
-    fontSize: ResponsiveScreen.normalize(14)
+    fontSize: ResponsiveScreen.fontSize(14)
 }}>dummy text</Text>
 ```
 
@@ -62,6 +62,6 @@ import ResponsiveScreen from 'react-native-auto-responsive-screen'
     borderRadius: ResponsiveScreen.normalize(5)
 }}>
     ...
-    </Text>
+    
 </TouchableOpacity>
 ```
