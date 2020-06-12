@@ -21,6 +21,8 @@ $ npm install react-native-auto-responsive-screen
 ![alt text](https://github.com/UADACID/react-native-auto-responsive-screen/blob/master/after.png)
 
 
+You need init first, this step is required
+
 ```js
 // file on root directory
 
@@ -35,7 +37,7 @@ const App = () => {
   ...
 };
 ```
-
+next step
 
 ```js
 // font example
