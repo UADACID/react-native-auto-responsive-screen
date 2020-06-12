@@ -35,3 +35,31 @@ const App = () => {
   ...
 };
 ```
+
+
+```js
+// font example
+import ResponsiveScreen from 'react-native-auto-responsive-screen'
+
+<Text style={{
+    color: '#FFFFFF',
+    fontSize: ResponsiveScreen.normalize(14)
+}}>dummy text</Text>
+```
+
+```js
+// component example
+import ResponsiveScreen from 'react-native-auto-responsive-screen'
+
+<TouchableOpacity style={{
+    height: ResponsiveScreen.normalize(40),
+    width: ResponsiveScreen.normalize(180),
+    backgroundColor: '#CD3438',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: ResponsiveScreen.normalize(5)
+}}>
+    ...
+    </Text>
+</TouchableOpacity>
+```
