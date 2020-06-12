@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "name": "react-native-auto-responsive-screen",
+    "version": "1.0.0",
+    "description": "This dependency is used to make responsive appearance in accordance with the dimensions of the design",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Pratama Setya Aji"
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "metro-react-native-babel-preset": "^0.59.0"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/macbookpro/Library/Caches/Yarn/v6/npm-react-native-auto-responsive-screen-1.0.0-c77a13f1-8a88-4655-b8af-21e598b3f302-1591960913234/node_modules/react-native-auto-responsive-screen/package.json"
+  },
+  "artifacts": [],
+  "remote": {
+    "type": "copy",
+    "registry": "npm",
+    "hash": "c77a13f1-8a88-4655-b8af-21e598b3f302-1591960913234",
+    "reference": "/usr/local/lib/node_modules/react-native-auto-responsive-screen"
+  },
+  "registry": "npm",
+  "hash": "c77a13f1-8a88-4655-b8af-21e598b3f302-1591960913234"
+}
