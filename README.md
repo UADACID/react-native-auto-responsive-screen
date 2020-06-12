@@ -19,3 +19,19 @@ $ npm install react-native-auto-responsive-screen
 
 ### after
 ![alt text](https://github.com/UADACID/react-native-auto-responsive-screen/blob/master/after.png)
+
+
+```js
+// file on root directory
+
+import ResponsiveScreen from 'react-native-auto-responsive-screen'
+
+/**
+ * WIDTH AND HEIGHT BASE ON MOCKUP
+ */
+ResponsiveScreen.init(414, 852)
+
+const App = () => {
+  ...
+};
+```
