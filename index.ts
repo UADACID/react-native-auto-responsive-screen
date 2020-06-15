@@ -13,21 +13,27 @@ class ResponsiveScreen {
     }
 
     static normalize = (size: number, based: string) => {
-        const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
-        if (Platform.OS === 'ios') {
-            return Math.round(PixelRatio.roundToNearestPixel(newSize));
-        } else {
-            return Math.round(PixelRatio.roundToNearestPixel(newSize)) - 2;
+        if (ResponsiveScreen.hscale && ResponsiveScreen.wscale) {
+            const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
+            if (Platform.OS === 'ios') {
+                return Math.round(PixelRatio.roundToNearestPixel(newSize));
+            } else {
+                return Math.round(PixelRatio.roundToNearestPixel(newSize)) - 2;
+            }
         }
+        return size;
     }
 
     static fontSize = (size: number, based: string) => {
-        const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
-        if (Platform.OS === 'ios') {
-            return Math.round(PixelRatio.roundToNearestPixel(newSize));
-        } else {
-            return Math.round(PixelRatio.roundToNearestPixel(newSize));
+        if (ResponsiveScreen.hscale && ResponsiveScreen.wscale) {
+            const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
+            if (Platform.OS === 'ios') {
+                return Math.round(PixelRatio.roundToNearestPixel(newSize));
+            } else {
+                return Math.round(PixelRatio.roundToNearestPixel(newSize));
+            }
         }
+        return size;
     }
 }
 
