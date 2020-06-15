@@ -4,17 +4,16 @@ const SCREEN_WIDTH = width;
 const SCREEN_HEIGHT = height;
 
 class ResponsiveScreen {
+    static wscale: number;
+    static hscale: number;
 
-    wscale: number = 0
-    hscale: number = 0
-
-    init(width: number, height: number) {
+    static init(width: number, height: number) {
         this.wscale = SCREEN_WIDTH / width;
         this.hscale = SCREEN_HEIGHT / height;
     }
 
-    normalize = (size: number, based: string) => {
-        const newSize = based === 'height' ? size * this.hscale : size * this.wscale;
+    static normalize = (size: number, based: string) => {
+        const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
         if (Platform.OS === 'ios') {
             return Math.round(PixelRatio.roundToNearestPixel(newSize));
         } else {
@@ -22,8 +21,8 @@ class ResponsiveScreen {
         }
     }
 
-    fontSize = (size: number, based: string) => {
-        const newSize = based === 'height' ? size * this.hscale : size * this.wscale;
+    static fontSize = (size: number, based: string) => {
+        const newSize = based === 'height' ? size * ResponsiveScreen.hscale : size * ResponsiveScreen.wscale;
         if (Platform.OS === 'ios') {
             return Math.round(PixelRatio.roundToNearestPixel(newSize));
         } else {
@@ -33,3 +32,5 @@ class ResponsiveScreen {
 }
 
 export default ResponsiveScreen
+
+
