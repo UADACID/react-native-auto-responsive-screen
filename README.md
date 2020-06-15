@@ -15,7 +15,7 @@ $ cd project_name
 $ npm install react-native-auto-responsive-screen
 ```
 ### before
-![alt text](https://github.com/UADACID/react-native-auto-responsive-screen/blob/master/before.png)
+![alt text](https://filebin.net/ebk0dq7kduvqi58u/Screen_Shot_2020-06-12_at_19.14.00.png?t=fkomkn06)
 
 ### after
 ![alt text](https://github.com/UADACID/react-native-auto-responsive-screen/blob/master/after.png)
