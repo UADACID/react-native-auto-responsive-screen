@@ -15,10 +15,10 @@ $ cd project_name
 $ npm install react-native-auto-responsive-screen
 ```
 ### before
-![alt text](https://filebin.net/ebk0dq7kduvqi58u/Screen_Shot_2020-06-12_at_19.14.00.png?t=fkomkn06)
+![alt text](https://serving.photos.photobox.com/79744764dcccf702991bc4ffa5e81d3e30ea55a3f35065658b2a59a1b0f87f5383f519f8.jpg)
 
 ### after
-![alt text](https://filebin.net/5lfogsq3ed7i7mg3/Screen_Shot_2020-06-12_at_19.28.48.png?t=8t0blpzz)
+![alt text](https://serving.photos.photobox.com/4185396168cceb1eb88c7473f4c7afd369799824b7389d7e555188b1e1f1816005a42c71.jpg)
 
 
 You need init first, this step is required
