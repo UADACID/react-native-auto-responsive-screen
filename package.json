@@ -1,8 +1,8 @@
 {
   "name": "react-native-auto-responsive-screen",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "This dependency is used to make responsive appearance in accordance with the dimensions of the design",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
